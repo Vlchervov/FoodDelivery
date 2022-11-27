@@ -1,0 +1,847 @@
+/* Header */
+
+.header {
+  display: flex;
+  padding-left: 190px;
+  padding-right: 190px;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: white;
+  color: #4a465c;
+  font-family: sans-serif;
+  border-bottom: 1px solid #ebeff0;
+}
+
+.header a {
+  color: #4a465c;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.headerCitySelector a {
+  color: #ffcd00;
+}
+
+.headerCitySelector a:hover {
+  text-decoration: underline;
+  color: #ffcd00;
+}
+
+.header__section {
+  display: flex;
+  align-items: center;
+}
+
+.header__item {
+  padding: 10px 15px;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.headerLogo img {
+  height: 30px;
+  width: 146px;
+  padding-top: 10px;
+  padding-right: 15px;
+  user-select: none;
+}
+
+.headerCitySelector {
+  padding-right: 0px;
+}
+
+.headerCitySelector a {
+  border-right: 1px solid #ebeff0;
+  border-right-width: 1px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headerPromotions {
+  cursor: pointer;
+  color: #4a465c;
+}
+
+.headerPromotions:hover {
+  color: #ffcd00;
+  text-decoration: underline;
+}
+
+.headerShippingAndPayment {
+  cursor: pointer;
+}
+
+.headerShippingAndPayment:hover {
+  color: #ffcd00;
+  text-decoration: underline;
+}
+/* ------------------------------------------- */
+
+/* Body */
+.body {
+  flex: 1 1 100%;
+  max-width: 1530px;
+  margin: 0 auto;
+  padding-left: 45px;
+  padding-right: 45px;
+  background-color: white;
+  color: #4a465c;
+  font-family: sans-serif;
+  font-family: sans-serif;
+  border-bottom: 1px solid #ebeff0;
+}
+
+.body__wrapper {
+  margin-bottom: 100px;
+}
+
+.body a {
+  text-decoration: none;
+  color: #4a465c;
+}
+
+.body__section {
+  display: flex;
+}
+
+.body__nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.body__item {
+  padding: 10px 15px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+  color: rgb(74, 70, 92);
+  cursor: pointer;
+  text-decoration-style: solid;
+  margin-left: 5px;
+}
+
+.body__item a:hover {
+  color: #ffcd00;
+}
+
+.bodyNavIcons {
+  display: inline-flex;
+  padding-left: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.bodyPerson {
+  display: inline-flex;
+  width: 30px;
+  height: 44px;
+  padding-right: 100px;
+}
+
+.bodyBasket {
+  display: inline-flex;
+}
+
+/* .bodyPerson::before {
+  display: inline-flex;
+  width: 30px;
+  padding-right: 20px;
+  content: url("../public/img/3289576-individual-man-people-person_107097.svg");
+} */
+
+/*body__content*/
+
+.body__content {
+  -webkit-box-flex: 1;
+  box-sizing: border-box;
+}
+
+.body__categories {
+  margin-bottom: 100px;
+}
+
+.categories__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.categories__item {
+  cursor: pointer;
+}
+
+.sushiAndRolls {
+  flex: 1 0 20%;
+  margin: 14px;
+  border-radius: 25px;
+  background-position: 100%;
+  background-size: cover;
+  background-image: url("https://s3.smartofood.ru/smartofood/menu/55424660-c19e-587a-b078-4db9bf326ac6.jpg");
+}
+
+.sushiAndRolls div:hover {
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+.sushiAndRolls div {
+  padding: 25px 25px 25px 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.sushiAndRolls a {
+  text-align: center;
+  line-height: 22px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  color: rgba(74, 70, 92);
+  padding: 10px 24px;
+  font-size: 16px;
+}
+
+.pizza {
+  background-image: url("https://s3.smartofood.ru/smartofood/menu/ea94e68d-44e5-5155-8d80-95a1a061df16.jpg");
+  flex: 1 0 20%;
+  margin: 14px;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: 100%;
+}
+
+.pizza div:hover {
+  backdrop-filter: blur(6px);
+  transition: 0.2s;
+  border-radius: 25px;
+}
+
+.pizza div {
+  padding: 25px 25px 25px 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.pizza a {
+  text-align: center;
+  line-height: 22px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  color: rgb(74, 70, 92);
+  padding: 10px 24px;
+  font-size: 16px;
+}
+
+.wokAndPaste {
+  flex: 1 0 20%;
+  margin: 14px;
+  border-radius: 25px;
+  background-size: cover;
+  background-position: 100%;
+  background-image: url("https://s3.smartofood.ru/smartofood/menu/e6442a58-c117-58d3-97bb-2ba37a596066.jpg");
+}
+
+.wokAndPaste div:hover {
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+.wokAndPaste div {
+  padding: 25px 25px 25px 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.wokAndPaste a {
+  text-align: center;
+  line-height: 22px;
+  border-radius: 30px;
+  color: rgb(74, 70, 92);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 24px;
+  font-size: 16px;
+}
+
+.burgers {
+  flex: 1 0 20%;
+  margin: 14px;
+  background-size: cover;
+  background-position: 100%;
+  border-radius: 25px;
+  background-image: url("https://s3.smartofood.ru/smartofood/menu/e8661a36-d9f2-5335-8f74-54a586840c72.jpg");
+}
+
+.burgers div:hover {
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+.burgers div {
+  padding: 25px 25px 25px 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.burgers a {
+  text-align: center;
+  line-height: 22px;
+  border-radius: 30px;
+  color: rgb(74, 70, 92);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 24px;
+  font-size: 16px;
+}
+
+.breakfasts {
+  flex: 1 0 20%;
+  margin: 14px;
+  background-size: cover;
+  border-radius: 25px;
+  background-position: 100%;
+  background-image: url("https://s3.smartofood.ru/smartofood/menu/81ba0842-1ff3-5c2b-b580-b949cacc6d32.jpg");
+}
+
+.breakfasts div:hover {
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+.breakfasts div {
+  padding: 25px 25px 25px 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.breakfasts a {
+  text-align: center;
+  line-height: 22px;
+  border-radius: 30px;
+  color: rgb(74, 70, 92);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 24px;
+  font-size: 16px;
+}
+
+.saladsAndAppetizers {
+  flex: 1 0 20%;
+  margin: 14px;
+  background-size: cover;
+  border-radius: 25px;
+  background-position: 100%;
+  background-image: url("https://s3.smartofood.ru/smartofood/menu/2aa9189c-c115-58d9-aaf2-4fb9fe7e4053.jpg");
+}
+
+.saladsAndAppetizers div:hover {
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+.saladsAndAppetizers div {
+  padding: 25px 25px 25px 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.saladsAndAppetizers a {
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 30px;
+  color: rgb(74, 70, 92);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 24px;
+  font-size: 16px;
+}
+
+.drinkables {
+  flex: 1 0 20%;
+  margin: 14px;
+  background-size: cover;
+  background-position: 100%;
+  border-radius: 25px;
+  background-image: url("https://s3.smartofood.ru/smartofood/menu/b075c9c9-1765-57ed-8b00-e0a3e7b7d341.png");
+}
+
+.drinkables div:hover {
+  backdrop-filter: blur(6px);
+  transition: 0.3s;
+  border-radius: 25px;
+}
+
+.drinkables div {
+  padding: 25px 25px 25px 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.drinkables a {
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 30px;
+  color: rgb(74, 70, 92);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px 24px;
+  font-size: 16px;
+}
+
+/*--- end of body content ---*/
+
+/* body__productsSection */
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+  line-height: 38px;
+  margin-bottom: 40px;
+}
+
+.products {
+  z-index: 1;
+  margin: -20px -10px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: initial;
+  justify-content: flex-start;
+}
+
+.products__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ffcd00;
+  border-radius: 18px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.products__button span {
+  display: block;
+  position: absolute;
+  background-color: white;
+  width: 15px;
+  height: 3px;
+}
+
+.products__button span:nth-child(2) {
+  transform: rotate(90deg);
+}
+
+.products__item {
+  cursor: pointer;
+}
+
+.minsk {
+  margin-right: 24px;
+  flex: 1 0 20%;
+  box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.minsk a {
+  flex: 0 0 209px;
+  flex-basis: 209px;
+  height: 209px;
+  overflow: hidden;
+  position: relative;
+}
+
+.minsk img {
+  display: block;
+  user-select: none;
+  width: 100%;
+  height: 209px;
+  margin: 0;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.bodyMinsk {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  padding: 24px;
+}
+
+.bodyMinskContent {
+  margin-bottom: 40px;
+}
+
+.bodySingaporeContent {
+  margin-bottom: 40px;
+}
+
+.bodyCaliforniaContent {
+  margin-bottom: 40px;
+}
+
+.bodyMoscowContent {
+  margin-bottom: 40px;
+}
+
+.bodyNameMinsk {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.bodySizeMinsk {
+  font-size: 12px;
+  line-height: 17px;
+  color: #94a2ae;
+  margin-bottom: 16px;
+}
+
+.bodyDescMinsk {
+  font-size: 12px;
+  line-height: 17px;
+  color: #94a2ae;
+  overflow: hidden;
+}
+
+.footerMinsk {
+  display: flex;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerMinskPrice {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+p {
+  margin: 0;
+}
+
+.footerMinskPrice p:after {
+  content: "\20BD";
+}
+
+.singapore {
+  margin-right: 24px;
+  border-radius: 25px;
+  flex: 1 0 20%;
+  box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
+  overflow: hidden;
+}
+
+.singapore a {
+  flex: 0 0 209px;
+  flex-basis: 209px;
+  height: 209px;
+  overflow: hidden;
+  position: relative;
+}
+
+.singapore img {
+  display: block;
+  width: 100%;
+  height: 209px;
+  margin: 0;
+  user-select: none;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.bodySingapore {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 24px;
+}
+
+.bodyNameSingapore {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.bodySizeSingapore {
+  font-size: 12px;
+  line-height: 17px;
+  color: #94a2ae;
+  margin-bottom: 16px;
+}
+
+.bodyDescSingapore {
+  font-size: 12px;
+  line-height: 17px;
+  color: #94a2ae;
+  overflow: hidden;
+}
+
+.footerSingapore {
+  display: flex;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerSingaporePrice {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footerSingaporePrice p:after {
+  content: "\20BD";
+}
+
+.california {
+  margin-right: 24px;
+  flex: 1 0 20%;
+  box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
+  border-radius: 25px;
+  -webkit-box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
+  overflow: hidden;
+}
+
+.california a {
+  flex: 0 0 209px;
+  flex-basis: 209px;
+  height: 209px;
+  overflow: hidden;
+  position: relative;
+}
+
+.california img {
+  display: block;
+  width: 100%;
+  height: 209px;
+  margin: 0;
+  user-select: none;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.bodyCalifornia {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-bottom: 10px;
+  padding: 24px;
+}
+
+.bodyNameCalifornia {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.bodySizeCalifornia {
+  font-size: 12px;
+  line-height: 17px;
+  color: #94a2ae;
+  margin-bottom: 16px;
+}
+
+.bodyDescCalifornia {
+  font-size: 12px;
+  line-height: 17px;
+  color: #94a2ae;
+  overflow: hidden;
+}
+
+.footerCalifornia {
+  display: flex;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerCaliforniaPrice {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footerCaliforniaPrice p:after {
+  content: "\20BD";
+}
+
+.moscow {
+  margin-right: 24px;
+  flex: 1 0 20%;
+  box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.moscow a {
+  flex: 0 0 209px;
+  flex-basis: 209px;
+  height: 209px;
+  overflow: hidden;
+  position: relative;
+}
+
+.moscow img {
+  display: block;
+  user-select: none;
+  width: 100%;
+  height: 209px;
+  margin: 0;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.bodyMoscow {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+  padding: 24px;
+}
+
+.bodyNameMoscow {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+.bodySizeMoscow {
+  font-size: 12px;
+  line-height: 17px;
+  color: #94a2ae;
+  margin-bottom: 16px;
+}
+
+.bodyDescMoscow {
+  font-size: 12px;
+  line-height: 17px;
+  color: #94a2ae;
+  overflow: hidden;
+}
+
+.footerMoscow {
+  display: flex;
+  -webkit-box-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footerMoscowPrice {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.footerMoscowPrice p:after {
+  content: "\20BD";
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 190px;
+  padding-right: 190px;
+  padding-top: 0;
+}
+
+.footer__section {
+  padding-top: 53px;
+  padding-bottom: 40px;
+}
+
+.footerLogo img {
+  height: 30px;
+  width: 146px;
+  padding-top: 10px;
+  user-select: none;
+}
+
+.footerDelivery a {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(21, 21, 21, 0.3);
+}
+
+.footerNav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footerNav li {
+  cursor: pointer;
+  margin-bottom: 13px;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: sans-serif;
+}
+
+.footerNav li:hover {
+  text-decoration: underline;
+}
+
+.footerAppTitle {
+  font-size: 12px;
+  line-height: 17px;
+  color: rgba(21, 21, 21, 0.3);
+}
+
+.footerLogo {
+  margin-top: 10px;
+}
+
+.footerGoogleLogo {
+  display: inline-flex;
+  cursor: pointer;
+  border: 1px solid rgba(21, 21, 21, 0.3);
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: rgba(21, 21, 21, 0.3);
+  font-weight: bold;
+}
+
+.footerGoogleLogo:hover {
+  border: 1px solid #ffcd00;
+  color: #ffcd00;
+}
+
+.footerGoogleLogo::before {
+  content: url("../public/img/google-play-5.svg");
+}
+
+.footerAppleLogo {
+  display: inline-flex;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid rgba(21, 21, 21, 0.3);
+}
+
+.footerAppleLogo:hover {
+  border: 1px solid #ffcd00;
+  color: #ffcd00;
+}
+
+.footerAppleLogo {
+  color: rgba(21, 21, 21, 0.3);
+}
+
+.footerAppleLogo::before {
+  content: url("../public/img/apple-13.svg");
+}
