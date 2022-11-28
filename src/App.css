@@ -430,6 +430,7 @@
 }
 
 .products__item {
+
   cursor: pointer;
 }
 
@@ -440,14 +441,6 @@
   -webkit-box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
   border-radius: 25px;
   overflow: hidden;
-}
-
-.minsk a {
-  flex: 0 0 209px;
-  flex-basis: 209px;
-  height: 209px;
-  overflow: hidden;
-  position: relative;
 }
 
 .minsk img {
@@ -469,19 +462,19 @@
 }
 
 .bodyMinskContent {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .bodySingaporeContent {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .bodyCaliforniaContent {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .bodyMoscowContent {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .bodyNameMinsk {
@@ -534,14 +527,6 @@ p {
   box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
   -webkit-box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
   overflow: hidden;
-}
-
-.singapore a {
-  flex: 0 0 209px;
-  flex-basis: 209px;
-  height: 209px;
-  overflow: hidden;
-  position: relative;
 }
 
 .singapore img {
@@ -609,14 +594,6 @@ p {
   overflow: hidden;
 }
 
-.california a {
-  flex: 0 0 209px;
-  flex-basis: 209px;
-  height: 209px;
-  overflow: hidden;
-  position: relative;
-}
-
 .california img {
   display: block;
   width: 100%;
@@ -631,7 +608,6 @@ p {
   display: flex;
   flex-direction: column;
   height: 100%;
-  margin-bottom: 10px;
   padding: 24px;
 }
 
@@ -681,14 +657,6 @@ p {
   -webkit-box-shadow: 3px 6px 12px rgb(0 0 0 / 10%);
   border-radius: 25px;
   overflow: hidden;
-}
-
-.moscow a {
-  flex: 0 0 209px;
-  flex-basis: 209px;
-  height: 209px;
-  overflow: hidden;
-  position: relative;
 }
 
 .moscow img {
