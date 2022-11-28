@@ -179,7 +179,7 @@ export function Body() {
                         лососевая
                       </div>
                     </div>
-                    <div className="products__item footerCalifornia">
+                    <div className="products__item footerMoscow">
                       <div className="products__item footerMoscowPrice">
                         <p>520 </p>
                       </div>

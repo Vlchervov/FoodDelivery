@@ -146,13 +146,6 @@
   display: inline-flex;
 }
 
-/* .bodyPerson::before {
-  display: inline-flex;
-  width: 30px;
-  padding-right: 20px;
-  content: url("../public/img/3289576-individual-man-people-person_107097.svg");
-} */
-
 /*body__content*/
 
 .body__content {
@@ -473,22 +466,18 @@
   line-height: 20px;
   margin-bottom: 16px;
   padding: 24px;
-
 }
-
 
 .bodyMinskContent {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
-
-
 
 .bodySingaporeContent {
   margin-bottom: 40px;
 }
 
 .bodyCaliforniaContent {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .bodyMoscowContent {
@@ -520,6 +509,7 @@
   display: flex;
   -webkit-box-align: center;
   justify-content: space-between;
+  padding-top: 20px;
   align-items: center;
 }
 
@@ -597,6 +587,7 @@ p {
   -webkit-box-align: center;
   justify-content: space-between;
   align-items: center;
+  padding-top: 0px;
 }
 
 .footerSingaporePrice {
@@ -670,6 +661,7 @@ p {
   -webkit-box-align: center;
   justify-content: space-between;
   align-items: center;
+  padding-top: 20px;
 }
 
 .footerCaliforniaPrice {
@@ -831,6 +823,7 @@ p {
 .footerAppleLogo {
   display: inline-flex;
   border-radius: 4px;
+  width: 110px;
   padding: 10px;
   cursor: pointer;
   font-weight: bold;
