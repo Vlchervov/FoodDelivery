@@ -1,6 +1,8 @@
+import { FooterStyled } from "../styled-components/footer.styled";
+
 export const Footer = () => {
   return (
-    <div className="footer">
+    <FooterStyled>
       <div className="footer__section">
         <div className="footer__item footerLogo">
           <img src="../img/172f0794-4161-4e28-bbb8-b847954411d3.png"></img>
@@ -27,6 +29,6 @@ export const Footer = () => {
           <a className="footerAppleLogo"> AppStore</a>
         </div>
       </div>
-    </div>
+    </FooterStyled>
   );
 };

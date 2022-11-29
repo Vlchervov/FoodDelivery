@@ -1,8 +1,9 @@
 import { connect } from "react-redux";
+import { HeaderStyled } from "../../styled-components/header.styled";
 
 function Header(props) {
   return (
-    <div className="header">
+    <HeaderStyled>
       <div className="header__section">
         <div className="header__item headerLogo">
           <img src="../img/172f0794-4161-4e28-bbb8-b847954411d3.png"></img>
@@ -32,7 +33,7 @@ function Header(props) {
           <a>Сегодня работаем с 8:00 до 21:30</a>
         </div>
       </div>
-    </div>
+    </HeaderStyled>
   );
 }
 
