@@ -220,8 +220,7 @@ export const ProductSection = styled.section`
     }
 
     .bodyCalifornia {
-      font-weight: 600;
-      font-size: 14px;
+      font-size: 16px;
       line-height: 20px;
       margin-bottom: 16px;
       padding: 24px;

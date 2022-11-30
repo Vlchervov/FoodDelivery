@@ -16,116 +16,16 @@ export const BodySection = styled.div`
 
   .body__wrapper {
     margin-bottom: 100px;
+    padding-top: 150px;
+
+    @media (max-width: 812px) {
+      padding-top: 0;
+    }
   }
 
   a {
     text-decoration: none;
     color: #4a465c;
-  }
-
-  .body__section {
-    display: flex;
-
-    :nth-child(2) {
-      @media (max-width: 812px) {
-        width: 100%;
-      }
-    }
-  }
-
-  .body__nav {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 20px;
-    padding-top: 20px;
-  }
-
-  .iconContainer {
-    @media (max-width: 812px) {
-      display: flex;
-      padding-top: 10px;
-    }
-  }
-
-  .body__item {
-    @media (max-width: 812px) {
-      display: none;
-    }
-    padding: 10px 15px;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 600;
-    color: rgb(74, 70, 92);
-    cursor: pointer;
-    text-decoration-style: solid;
-    margin-left: 5px;
-
-    a:hover {
-      color: #ffcd00;
-    }
-  }
-
-  .bodyNavIcons {
-    justify-content: space-between;
-    width: 100%;
-    display: flex;
-    padding-left: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-
-    @media (max-width: 812px) {
-      margin: 0;
-    }
-  }
-
-  .burgerMenu {
-    display: none;
-    @media (max-width: 812px) {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 2px 5px 5px;
-
-        span {
-          :not(:nth-of-type(3)) {
-            margin-bottom: 2px;
-          }
-          background-color: black;
-          width: 15px;
-          height: 3px;
-        }
-      }
-
-      p {
-        display: block;
-      }
-    }
-  }
-
-  .bodyPerson {
-    @media (max-width: 812px) {
-      padding-right: 15px;
-      width: 15px;
-      height: 20px;
-    }
-    display: inline-flex;
-    width: 30px;
-    height: 44px;
-    padding-right: 100px;
-  }
-
-  .bodyBasket {
-    display: inline-flex;
-
-    @media (max-width: 812px) {
-      padding-right: 10px;
-      width: 15px;
-      height: 20px;
-    }
   }
 
   .categories__list {
@@ -135,6 +35,9 @@ export const BodySection = styled.div`
 
   .body__categories {
     margin-bottom: 100px;
+    @media (max-width: 812px) {
+      margin-top: 150px;
+    }
   }
 
   .categories__item {
