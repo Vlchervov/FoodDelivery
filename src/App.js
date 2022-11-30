@@ -1,19 +1,15 @@
-import { Provider } from "react-redux";
 import "./App.css";
 import { Body } from "./components/body/body";
-import CityList from "./components/city/CityList";
 import { Footer } from "./components/footer/Footer";
-import store from "./store/store";
+import Header from "./components/header/Header";
 
 const App = () => {
   return (
-    <Provider store={store}>
       <div className="App">
-        <CityList />
+        <Header />
         <Body />
         <Footer />
       </div>
-    </Provider>
   );
 };
 

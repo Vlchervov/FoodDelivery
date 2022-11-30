@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
 import { HeaderStyled } from "../../styled-components/header.styled";
 
-function Header(props) {
+function Header() {
   return (
     <HeaderStyled>
       <div className="header__appSection">
@@ -16,13 +16,7 @@ function Header(props) {
             </select>
           </div>
           <div className="header__item headerCitySelector">
-            <a
-              onClick={() => {
-                props.setChange(!props.change);
-              }}
-            >
-              Москва
-            </a>
+            <a>Москва</a>
           </div>
           <div className="header__item headerPromotions">Акции</div>
           <div className="header__item headerShippingAndPayment">
@@ -83,8 +77,4 @@ function Header(props) {
   );
 }
 
-const mapStateToProps = (state) => ({
-  state,
-});
-
-export default connect(mapStateToProps)(Header);
+export default Header;
