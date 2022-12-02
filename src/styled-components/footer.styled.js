@@ -69,18 +69,21 @@ export const FooterStyled = styled.div`
   }
 
   .footerLogo {
+    display: flex;
     margin-top: 10px;
   }
 
-  .footerGoogleLogo {
-    display: inline-flex;
-    cursor: pointer;
+  .footer__itemLogo {
     border: 1px solid rgba(21, 21, 21, 0.3);
-    padding: 10px;
     border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .GoogleLogo {
     margin-right: 10px;
     color: rgba(21, 21, 21, 0.3);
-    font-weight: bold;
 
     :hover {
       border: 1px solid #ffcd00;
@@ -88,15 +91,8 @@ export const FooterStyled = styled.div`
     }
   }
 
-  .footerAppleLogo {
-    display: inline-flex;
-    border-radius: 4px;
+  .AppleLogo {
     width: 110px;
-    padding: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    border: 1px solid rgba(21, 21, 21, 0.3);
-    color: rgba(21, 21, 21, 0.3);
 
     :hover {
       border: 1px solid #ffcd00;

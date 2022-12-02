@@ -25,8 +25,8 @@ export const Footer = () => {
           <a>Заказывайте через приложение</a>
         </div>
         <div className="footerLogo">
-          <a className="footerGoogleLogo"> Google Play</a>
-          <a className="footerAppleLogo"> AppStore</a>
+          <a className="footer__itemLogo GoogleLogo"> Google Play</a>
+          <a className="footer__itemLogo AppleLogo"> AppStore</a>
         </div>
       </div>
     </FooterStyled>

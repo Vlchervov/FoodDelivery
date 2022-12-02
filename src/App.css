@@ -4,26 +4,10 @@ p {
   margin: 0;
 }
 
-.footerMinskPrice p:after {
-  content: "\20BD";
-}
-
-.footerSingaporePrice p:after {
-  content: "\20BD";
-}
-
-.footerCaliforniaPrice p:after {
-  content: "\20BD";
-}
-
-.footerMoscowPrice p:after {
-  content: "\20BD";
-}
-
-.footerGoogleLogo::before {
+.GoogleLogo::before {
   content: url("../public/img/google-play-5.svg");
 }
 
-.footerAppleLogo::before {
+.AppleLogo::before {
   content: url("../public/img/apple-13.svg");
 }

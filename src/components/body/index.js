@@ -1,5 +1,5 @@
 import { BodySection } from "../../styled-components/body.styled";
-import { Product } from "../products/products";
+import { Popular } from "../products";
 
 export function Body() {
   return (
@@ -46,7 +46,7 @@ export function Body() {
             </div>
           </div>
         </div>
-        <Product />
+        <Popular />
       </div>
     </BodySection>
   );
